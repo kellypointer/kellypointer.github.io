@@ -1,0 +1,107 @@
+.navbar {background-color: #ccffff;
+font-size: 1.2em;
+padding: 0.5em;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+display: inline;
+}
+.navbar ul li a {color: #004a99;
+    display: inline;
+list-style: none;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar ul {list-style: none;
+margin: 0;
+padding: 0;
+}
+.navbar ul li {display: inline;
+margin: 0 1em;
+}
+.main-content {padding-top: 0.3em;
+border-color:aquamarine}
+
+#welcome {font-size: 2.4em;
+font-family:cursive;
+color: #cc00ff;
+text-wrap: wrap;
+text-align: center;
+}
+
+#welcome h1 {font-size: 2.3em;
+    font-family:cursive;
+    color: #cc00ff;
+}
+
+#about {display: flexbox;
+    justify-content: space-around;
+    padding: 1em}
+
+#about img {display: inline-flex;
+    }
+
+#about p {font-size: 1.2em;
+    font-family:cursive;
+    color: #cc00ff;
+    }
+#about h1 {font-size: 3em;
+font-family:cursive;
+color: #0073ff;
+text-decoration: underline;}
+
+#projects h1 {font-size: 3em;
+    font-family:cursive;
+    color: #0073ff;
+    text-decoration: underline;
+}
+#projects2 h2 {font-size: 2.5em;
+    font-family:cursive;
+    color: #00d5ff;
+    text-decoration: none;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+grid-auto-rows: 400px;
+}
+
+.portfolio-item1 {grid-column: 1;
+    grid-row: 1;}
+
+.portfolio-item2 {grid-column: 2;
+    grid-row: 1;}
+
+.portfolio-item3 {grid-column: 1;
+    grid-row: 2;}
+
+.portfolio-item4 {grid-column: 2;
+    grid-row: 2;}
+
+#contact h1 {font-size: 2.2em;
+    font-family:cursive;
+    color: #0073ff;
+    text-decoration: underline;
+    }
+#contact h2 {font-size: 2em;
+        font-family:cursive;
+        color: #00d5ff;
+}
+
+#contact {font-size: 1.5em;
+    font-family:cursive;
+    color: #ff9900}
+
+#footer {background-color: #ccffff;
+    color: #009933;
+    padding: 0.5em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) { transform: scale(0.7);
+}
